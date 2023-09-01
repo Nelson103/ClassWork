@@ -1,0 +1,186 @@
+
+
+
+
+
+
+
+body {
+    padding: 0 110px;
+    margin: 0 auto;
+    // border: 1px solid brown
+    
+}
+
+.acc-border {
+    border-right: 1px solid gray;
+    padding-right: 30px;
+}
+main {
+    .hero-section {
+        display: flex;
+        padding-top: 80px;
+        height: calc(100vh-64px);
+
+        .left-section {
+         // border: 1px solid;
+         width: 50%;  
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         // justify-content: space-between;
+         padding-right: 120px;
+         h3 {
+            font-size: 80px;
+            padding: 50px 0px;
+         }
+         p {
+            font-size: 25px;
+            padding-bottom: 70px;
+            
+         }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.triangle-one {
+    width: 50px;
+    height: 50px;
+    // background-color: red;
+    display: block;
+    border-left: 25px solid transparent;
+    border-right: 25px solid red;
+    border-bottom: 25px solid red;
+    border-top: 25px solid transparent;
+    position: absolute;
+
+}
+.triangle-two {
+    width: 72px;
+    height: 72px;
+    // bacground-color: red;
+    display: block;
+    // border-radius: 50%;
+    border-left: 36px solid transparent;
+    border-right: 36px solid red;
+    border-bottom: 36px solid red;
+    border-top: 36px solid transparent;
+    position: absolute;
+    right: -20px;
+    bottom: 50px;
+}
+.triangle-three {
+    width: 70px;
+    height: 70px;
+    // backround-color: red;
+    display: block;
+    border-left: 35px solid red;
+    border-right: 35px solid transparent;
+    border-bottom: 35px solid red;
+    border-top: 35px solid transparent;
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+    
+}
+.sponsors {
+    margin: 80px 0;
+    .sponsor-top {
+        display: flex;
+        .sponsor-top-left {
+            width: 50px;
+        }
+    }
+
+}
+.sponsor-top-right {
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    img {
+        display: block;
+    }
+}
